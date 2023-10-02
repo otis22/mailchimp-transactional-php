@@ -4,6 +4,13 @@
   </a>
 </p>
 
+# WARNING!!! 
+
+*Fork for a PHP ^8.0 support*
+
+Original repo [mailchimp/mailchimp-transactional-php](https://github.com/mailchimp/mailchimp-transactional-php). 
+
+
 # Mailchimp Transactional — PHP
 
 The official PHP client library for the Mailchimp Transactional API (v1)
@@ -19,7 +26,7 @@ Or add the following to `composer.json`
 ```
 {
   "require": {
-    "mailchimp/transactional": "*"
+    "otis22/transactional": "*"
   }
 }
 ```

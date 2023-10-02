@@ -1,6 +1,6 @@
 {
-    "name": "mailchimp/transactional",
-    "version": "1.0.50",
+    "name": "otis22/transactional",
+    "version": "1.0.51",
     "description": "",
     "keywords": [
         "swagger",
@@ -17,16 +17,11 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.2 || >=8.0",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
         "guzzlehttp/guzzle": "^6.4 || ^7.2"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7",
-        "squizlabs/php_codesniffer": "~2.6",
-        "friendsofphp/php-cs-fixer": "~2.12"
     },
     "autoload": {
         "psr-4": {
