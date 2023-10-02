@@ -10,6 +10,12 @@
 
 Original repo [mailchimp/mailchimp-transactional-php](https://github.com/mailchimp/mailchimp-transactional-php). 
 
+ # How to fix mailchimp/mailchimp-transactional-php for work with php8
+
+```shell
+composer rm mailchimp/transactional
+composer require otis22/transactional
+```
 
 # Mailchimp Transactional — PHP
 
